@@ -3,7 +3,7 @@ generate x-client-transaction-id (https://x.com/)
 
 # Example
 
-```
+```CSharp
 var uri = new Uri("https://x.com/i/api/graphql/1VOOyvKkiI3FMmkeDNxM9A/UserByScreenName");
 var method = HttpMethod.Get;
 
